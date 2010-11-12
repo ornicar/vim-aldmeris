@@ -86,3 +86,8 @@ hi link phpSpecial Keyword
 hi link phpMemberSelector Keyword
 hi link phpBoolean Boolean
 hi link phpNumber Number
+hi link phpStringSingle String
+
+" Reset SQL
+hi link sqlKeyword String " do not highlight words like 'from' in php strings
+hi link sqlStatement String " do not highlight workds like 'comment' in php strings
