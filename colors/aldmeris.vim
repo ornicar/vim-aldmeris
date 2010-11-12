@@ -25,7 +25,7 @@ hi Visual       guibg=#888a85 guifg=#eeeeec
 
 hi LineNr guibg=Black guifg=#555753
 
-" Invisible chracters
+" Invisible characters
 hi NonText guifg=#555753
 hi SpecialKey guifg=#555753
 
