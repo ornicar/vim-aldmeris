@@ -46,6 +46,7 @@ hi Function guifg=#f57900
 hi Class guifg=#f57900
 hi Statement guifg=#eeeeec gui=bold
 hi PreProc guifg=#ad7fa8
+hi Include guifg=#ad7fa8
 hi Type guifg=#8ae234 gui=bold
 hi Special guifg=#fcaf3e
 
@@ -84,12 +85,12 @@ hi link phpIdentifier Identifier
 hi link phpParent Normal
 hi link phpFunctions Function
 hi link phpClasses Class
-hi link phpSpecial Keyword
+hi link phpSpecial Special
 hi link phpMemberSelector Keyword
 hi link phpBoolean Boolean
 hi link phpNumber Number
 hi link phpStringSingle String
-hi link phpSpecial PreProc " 'new' operator
+hi link phpInclude Include
 
 " Reset SQL
 hi link sqlKeyword String " do not highlight words like 'from' in php strings
