@@ -60,7 +60,7 @@ hi link xmlEndTag xmlTag
 hi link xmlTagName xmlTag
 hi link xmlString String
 
-"HTML Colors
+" HTML Colors
 hi link htmlTag xmlTag
 hi link htmlString xmlString
 hi link htmlSpecialChar PreProc
@@ -77,7 +77,7 @@ hi link jinjaVarDelim jinjaTagDelim
 hi link jinjaFilter Special
 hi link jinjaString xmlString
 
-"PHP Colors
+" PHP Colors
 hi link phpVarSelector Identifier
 hi link phpIdentifier Identifier
 hi link phpParent Normal
