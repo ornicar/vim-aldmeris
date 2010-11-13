@@ -4,6 +4,7 @@
 "
 " Name:         aldmeris.vim
 " Maintainer:   Vincent Velociter
+" Contributor:  Thibault Duplessis
 " License:      Public license
 " Version:      0.1
 
