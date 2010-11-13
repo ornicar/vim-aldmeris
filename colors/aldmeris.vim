@@ -21,9 +21,8 @@ hi Cursor		guibg=#d3d7cf guifg=#000000
 hi CursorLine	guibg=#202221
 hi CursorColumn	guibg=#464646
 hi MatchParen	guibg=#ad7fa8 guifg=#FFFFFF
-hi Visual       guibg=#888a85 guifg=#eeeeec
-
-hi LineNr guibg=Black guifg=#555753
+hi Visual       guibg=#50506A guifg=#eeeeec
+hi LineNr       guibg=#000000 guifg=#555753
 
 " Invisible characters
 hi NonText guifg=#555753
