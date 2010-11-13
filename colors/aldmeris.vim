@@ -64,6 +64,7 @@ hi link xmlString String
 
 " HTML Colors
 hi link htmlTag xmlTag
+hi link htmlTagName xmlTag
 hi link htmlString xmlString
 hi link htmlSpecialChar PreProc
 hi link htmlH1 Normal
