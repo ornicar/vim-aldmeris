@@ -17,13 +17,14 @@ endif
 let g:colors_name = "aldmeris"
 
 "GUI Colors
-hi Normal       guifg=#d3d7cf guibg=#141616
-hi Cursor		guibg=#d3d7cf guifg=#000000
-hi CursorLine	guibg=#202221
-hi CursorColumn	guibg=#464646
-hi MatchParen	guibg=#ad7fa8 guifg=#FFFFFF
+hi Normal       guibg=#141616 guifg=#d3d7cf
+hi Cursor       guibg=#d3d7cf guifg=#000000
+hi CursorLine   guibg=#202221
+hi CursorColumn guibg=#464646
+hi MatchParen   guibg=#ad7fa8 guifg=#FFFFFF
 hi Visual       guibg=#50506A guifg=#eeeeec
 hi LineNr       guibg=#000000 guifg=#555753
+hi Folded       guibg=bg      guifg=#c3c7ca
 
 " Invisible characters
 hi NonText guifg=#555753
