@@ -63,8 +63,9 @@ hi link xmlTagName xmlTag
 hi link xmlString String
 
 " HTML Colors
-hi link htmlTag xmlTag
-hi link htmlTagName xmlTag
+hi link htmlTag Normal
+hi link htmlEndTag Normal
+hi link htmlTagName Normal
 hi link htmlString xmlString
 hi link htmlSpecialChar PreProc
 hi link htmlH1 Normal
@@ -76,9 +77,11 @@ hi link htmlH6 Normal
 
 " Jinja colors
 hi link jinjaTagDelim Statement
+hi link jinjaStatement Statement
 hi link jinjaVarDelim jinjaTagDelim
 hi link jinjaFilter Special
 hi link jinjaString xmlString
+hi link jinjaVarDelim Statement
 
 " PHP Colors
 hi link phpVarSelector Identifier
