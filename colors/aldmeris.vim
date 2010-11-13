@@ -27,8 +27,8 @@ hi LineNr       guibg=#000000 guifg=#555753
 hi Folded       guibg=bg      guifg=#c3c7ca
 
 " Invisible characters
-hi NonText guifg=#555753
-hi SpecialKey guifg=#555753
+hi NonText      guifg=#555753
+hi SpecialKey   guifg=#555753
 
 " Pmenu
 hi Pmenu        guibg=#000000 guifg=#c0c0c0
@@ -37,25 +37,25 @@ hi PmenuSbar    guibg=#444444 guifg=#444444
 hi PmenuThumb   guibg=#888888 guifg=#888888 
 
 "General Colors
-hi Comment guifg=#888a85 gui=italic
-hi Constant guifg=#fce94f
-hi String guifg=#edd400
-hi Boolean guifg=#ce5c00
+hi Comment      guifg=#888a85 gui=italic
+hi Constant     guifg=#fce94f
+hi String       guifg=#edd400
+hi Boolean      guifg=#ce5c00
 
-hi Identifier guifg=#729fcf gui=NONE
-hi Function guifg=#f57900
-hi Class guifg=#f57900
-hi Statement guifg=#eeeeec gui=bold
-hi PreProc guifg=#ad7fa8
-hi Include guifg=#ad7fa8
-hi Type guifg=#8ae234 gui=bold
-hi Special guifg=#fcaf3e
+hi Identifier   guifg=#729fcf gui=NONE
+hi Function     guifg=#f57900
+hi Class        guifg=#f57900
+hi Statement    guifg=#eeeeec gui=bold
+hi PreProc      guifg=#ad7fa8
+hi Include      guifg=#ad7fa8
+hi Type         guifg=#8ae234 gui=bold
+hi Special      guifg=#fcaf3e
 
-hi Error guifg=#eeeeec guibg=#cc0000 gui=bold
-hi Todo guifg=#888a85 guibg=#fce94f gui=bold
+hi Error        guifg=#eeeeec guibg=#cc0000 gui=bold
+hi Todo         guifg=#888a85 guibg=#fce94f gui=bold
 
 hi clear Search
-hi Search guibg=#555753
+hi Search       guibg=#555753
 
 " XML Colors
 hi link xmlTag Identifier
