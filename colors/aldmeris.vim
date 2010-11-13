@@ -19,16 +19,16 @@ let g:colors_name = "aldmeris"
 "GUI Colors
 hi Normal       guibg=#141616 guifg=#d3d7cf
 hi Cursor       guibg=#d3d7cf guifg=#000000
-hi CursorLine   guibg=#202221
-hi CursorColumn guibg=#464646
+hi CursorLine   guibg=#000000 guifg=NONE
+hi CursorColumn guibg=#464646 guifg=NONE
 hi MatchParen   guibg=#ad7fa8 guifg=#FFFFFF
 hi Visual       guibg=#50506A guifg=#eeeeec
 hi LineNr       guibg=#000000 guifg=#555753
-hi Folded       guibg=bg      guifg=#c3c7ca
+hi Folded       guibg=NONE    guifg=#c3c7ca
 
 " Invisible characters
-hi NonText      guifg=#555753
-hi SpecialKey   guifg=#555753
+hi NonText      guibg=NONE    guifg=#555753
+hi SpecialKey   guibg=NONE    guifg=#555753
 
 " Pmenu
 hi Pmenu        guibg=#000000 guifg=#c0c0c0
@@ -37,25 +37,25 @@ hi PmenuSbar    guibg=#444444 guifg=#444444
 hi PmenuThumb   guibg=#888888 guifg=#888888 
 
 "General Colors
-hi Comment      guifg=#888a85 gui=italic
-hi Constant     guifg=#fce94f
-hi String       guifg=#edd400
-hi Boolean      guifg=#ce5c00
+hi Comment      guibg=NONE    guifg=#888a85 gui=italic
+hi Constant     guibg=NONE    guifg=#fce94f
+hi String       guibg=NONE    guifg=#edd400
+hi Boolean      guibg=NONE    guifg=#ce5c00
 
-hi Identifier   guifg=#729fcf gui=NONE
-hi Function     guifg=#f57900
-hi Class        guifg=#f57900
-hi Statement    guifg=#eeeeec gui=bold
-hi PreProc      guifg=#ad7fa8
-hi Include      guifg=#ad7fa8
-hi Type         guifg=#8ae234 gui=bold
-hi Special      guifg=#fcaf3e
+hi Identifier   guibg=NONE    guifg=#729fcf gui=NONE
+hi Function     guibg=NONE    guifg=#f57900
+hi Class        guibg=NONE    guifg=#f57900
+hi Statement    guibg=NONE    guifg=#eeeeec gui=bold
+hi PreProc      guibg=NONE    guifg=#ad7fa8
+hi Include      guibg=NONE    guifg=#ad7fa8
+hi Type         guibg=NONE    guifg=#8ae234 gui=bold
+hi Special      guibg=NONE    guifg=#fcaf3e
 
-hi Error        guifg=#eeeeec guibg=#cc0000 gui=bold
-hi Todo         guifg=#888a85 guibg=#fce94f gui=bold
+hi Error        guibg=#cc0000 guifg=#eeeeec gui=bold
+hi Todo         guibg=#fce94f guifg=#888a85 gui=bold
 
 hi clear Search
-hi Search       guibg=#555753
+hi Search       guibg=#555753 guifg=NONE
 
 " XML Colors
 hi link xmlTag Identifier
