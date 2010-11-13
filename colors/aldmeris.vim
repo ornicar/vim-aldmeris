@@ -20,7 +20,7 @@ let g:colors_name = "aldmeris"
 hi Normal       guibg=#141616 guifg=#d3d7cf
 hi Cursor       guibg=#d3d7cf guifg=#000000
 hi CursorLine   guibg=#000000 guifg=NONE
-hi CursorColumn guibg=#464646 guifg=NONE
+hi CursorColumn guibg=#000000 guifg=NONE
 hi MatchParen   guibg=#ad7fa8 guifg=#FFFFFF
 hi Visual       guibg=#50506A guifg=#eeeeec
 hi LineNr       guibg=#000000 guifg=#555753
@@ -42,7 +42,7 @@ hi Constant     guibg=NONE    guifg=#fce94f
 hi String       guibg=NONE    guifg=#edd400
 hi Boolean      guibg=NONE    guifg=#ce5c00
 
-hi Identifier   guibg=NONE    guifg=#729fcf gui=NONE
+hi Identifier   guibg=NONE    guifg=#729fcf
 hi Function     guibg=NONE    guifg=#f57900
 hi Class        guibg=NONE    guifg=#f57900
 hi Statement    guibg=NONE    guifg=#eeeeec gui=bold
