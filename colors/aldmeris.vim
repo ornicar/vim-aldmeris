@@ -17,7 +17,7 @@ endif
 let g:colors_name = "aldmeris"
 
 "GUI Colors
-hi Normal       guibg=#141616 guifg=#d3d7cf
+hi Normal       guibg=#1d1f1f guifg=#d3d7cf
 hi Cursor       guibg=#d3d7cf guifg=#000000
 hi CursorLine   guibg=#000000 guifg=NONE
 hi CursorColumn guibg=#000000 guifg=NONE
